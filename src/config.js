@@ -1,4 +1,7 @@
 export default {
+    MAX_ATTACHMENT_SIZE: 5000000,
+
+    STRIPE_KEY: "PUBLISHABLE_STRIPE_KEY_GOES_HERE",
     s3: {
         REGION: "us-east-1",
         BUCKET: "notespd-app-upload"
@@ -14,3 +17,4 @@ export default {
         IDENTITY_POOL_ID: "us-east-1:6a16aa56-9ea4-45a9-8bd2-edd689453bac"
     }
 };
+
